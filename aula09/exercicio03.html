@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../aula04/_css/estilo.css">
+    <title>Curso de PHP - CursoemVideo.com</title>
+    <style>
+        .btn1{
+            background-color: darkblue;
+            color: white;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.479);
+            padding: 5px;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <h1>Curso de PHP</h1>
+    <form action="exercicio03.php" method="get">
+        <label for="inota1">Nota 1: </label><input type="number" name="nota1" id="inota1" required min="0" max="10">
+        <label for="inota2">Nota 2: </label><input type="number" name="nota2" id="inota2" required min="0" max="10">
+        <br><br>
+        <input type="submit" class="btn1" value="Calcular Média">
+        <input type="reset" class="btn1" value="Limpar">
+    </form>
+</div>
+</body>
+</html>
