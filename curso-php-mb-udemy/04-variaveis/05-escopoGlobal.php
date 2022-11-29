@@ -4,7 +4,7 @@
 
 // Já as funcoes possuem escopo local, ou seja, nao alteram os valores das variaveis globais bem como possuem escopo apenas local de variaveis declaradas dentro delas, perdendo seu valor em memória após o fim da chamada da funcao. 
 
-// No caso de usarmos GLOBAL antes da declaracao da variavel DENTRO da funcao , ela passará a ter escopo global também, passando a referenciar o valor global da variável
+// No caso de usarmos GLOBAL antes da declaracao da variavel DENTRO da funcao , ela passará a ter escopo global também, passando a referenciar o valor global da variável.
 
 $teste = "asd";
 
