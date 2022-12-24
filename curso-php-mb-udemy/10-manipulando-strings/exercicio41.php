@@ -20,7 +20,10 @@
 <h1>Curso de PHP</h1><hr>
 <?php
   
+$str = "este item está em ";
+$promo = "promoção";
 
+echo ucfirst($str) . strtoupper($promo);
   
 ?>
 </body>

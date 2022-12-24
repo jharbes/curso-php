@@ -19,8 +19,20 @@
 <body>
 <h1>Curso de PHP</h1><hr>
 <?php
-  
 
+// O ideal é se manter apenas com uma das sintaxes
+// trata=se apenas de colocar a variavel no meio da string em vez de ter necessidade de concatenar para que elas sejam impressas junto
+// com as strings
+
+$nome = "Matheus";
+$idade = 29;
+$profissao = "Programador";
+
+echo "Eu sou o $nome e tenho $idade anos, e atuo como $profissao <br>";
+
+echo "Eu sou o {$nome} e tenho {$idade} anos, e atuo como {$profissao} <br>";
+
+// Indiferente com ou sem as chaves ao interpolar as strings
   
 ?>
 </body>

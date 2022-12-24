@@ -20,7 +20,16 @@
 <h1>Curso de PHP</h1><hr>
 <?php
   
+$frase="O rato roeu a roupa do rei de Roma";
 
+$soma=0;
+
+for ($i=0;$i<strlen($frase);$i++){
+    if ($frase[$i]=='a')
+        $soma++;
+}
+
+echo "<h2>O número de caracteres a da string são $soma</h2>";
   
 ?>
 </body>

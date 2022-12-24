@@ -20,7 +20,11 @@
 <h1>Curso de PHP</h1><hr>
 <?php
   
+$arrayString=["O","PHP","é","muito","legal"];
 
+$stringArray=implode(" ",$arrayString);
+
+echo "<h4>$stringArray</h4>";
   
 ?>
 </body>

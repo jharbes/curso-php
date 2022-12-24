@@ -20,7 +20,19 @@
 <h1>Curso de PHP</h1><hr>
 <?php
   
+header("Content-type: text/plain"); // essa funcao faz com que apareca o codigo puro, so nesse caso funcionam esses comandos com contrabarra
 
+//  para pular linha
+echo "Isso aqui vai ficar na primeira linha \n E isso na segunda linha \n";
+
+// para aplicar um Tab
+echo "Testando o tab \t aqui \n";
+
+// para que saia uma Barra invertida
+echo "Barra invertida \\ \n";
+
+// para que saia um Dólar ou cifrao
+echo "Imprimindo o dólar \$teste";
   
 ?>
 </body>

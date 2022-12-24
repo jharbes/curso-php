@@ -19,8 +19,24 @@
 <body>
 <h1>Curso de PHP</h1><hr>
 <?php
-  
 
+// printf vem da expressao print format
+  
+$nome = "Matheus";
+
+// %s -> string
+
+printf("O nome é %s <br>", $nome);
+
+// %d -> int
+
+$n = 10;
+
+printf("O número é %d e o outro é %d <br>", $n, 150);
+
+// %f -> float
+
+printf("A temperatura atual é %.1f <br>", 12.58); // o .1 faz com que imprima com apenas uma casa decimal, arredondando se for o caso.
   
 ?>
 </body>

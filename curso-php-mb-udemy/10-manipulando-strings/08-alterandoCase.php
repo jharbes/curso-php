@@ -19,8 +19,14 @@
 <body>
 <h1>Curso de PHP</h1><hr>
 <?php
-  
 
+$str = "esta string está em caixa baixa <br>";
+
+echo strtoupper($str); // coloca toda a string em caixa alta, string to upper
+
+$str2 = "E ESTA AQUI EM CAIXA ALTA <br>";
+
+echo strtolower($str2); // coloca toda a string em caixa baixa, string to lower
   
 ?>
 </body>

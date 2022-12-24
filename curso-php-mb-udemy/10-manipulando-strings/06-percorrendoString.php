@@ -19,8 +19,18 @@
 <body>
 <h1>Curso de PHP</h1><hr>
 <?php
-  
 
+// A string funciona como um vetor de caracteres onde cada um de seus caracteres é um indice do vetor,
+// importante lembrar que acento e letra sao caracteres distintos nesse caso e nao serao impressos
+// adequadamente sozinhos
+
+$str = "Esta é uma string muito grande, ela tem vários caracteres";
+
+for($i = 0; $i < strlen($str); $i++) {
+
+    echo "$str[$i] <br>";
+
+}
   
 ?>
 </body>

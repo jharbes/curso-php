@@ -19,8 +19,22 @@
 <body>
 <h1>Curso de PHP</h1><hr>
 <?php
-  
 
+// Lembrando que a string original permanece inalterada
+  
+$palavra = "Testando";
+
+$palavraInvertida = strrev($palavra); // strrev = String reverse
+
+echo "$palavra <br>";
+echo "$palavraInvertida <br>";
+
+$frase = "O programador estava com o prazo curto para fazer o sistema";
+
+$fraseInvertida = strrev($frase);
+
+echo "$frase <br>";
+echo "$fraseInvertida <br>";
   
 ?>
 </body>

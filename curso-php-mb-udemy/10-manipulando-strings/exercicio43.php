@@ -20,7 +20,12 @@
 <h1>Curso de PHP</h1><hr>
 <?php
   
+$string="carro - navio - helicóptero - barco - jangada";
 
+$stringArray=explode("-",$string);
+
+foreach ($stringArray as $arrayItem)
+    echo "$arrayItem<br>";
   
 ?>
 </body>

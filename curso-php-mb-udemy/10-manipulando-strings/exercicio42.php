@@ -20,7 +20,22 @@
 <h1>Curso de PHP</h1><hr>
 <?php
   
+/*
 
+Na frase "Cadê meu queijo? Ele estava aqui em cima"
+Resgate apenas a palavra queijo e a palavra estava.
+
+*/
+
+$stringOriginal="Cadê o meu queijo? Ele estava aqui em cima";
+
+$palavra1=substr($stringOriginal,12,6);
+
+echo "<p>A primeira palavra resgatada é <mark>$palavra1</mark></p>";
+
+$palavra2=substr($stringOriginal,24,6);
+
+echo "<p>A segunda palavra resgatada é <mark>$palavra2</mark></p>";
   
 ?>
 </body>
