@@ -19,14 +19,16 @@
 <body>
 <h1>Curso de PHP</h1><hr>
 <?php
-  
-$str = "Testando encontrado palavra teste, em uma string que tem teste";
 
-$palavra = strrpos($str, "teste");
+// IMPORTANTE ATENTAR strrpos (a ultima ocorrencia) possui um erre (R) a mais 
+  
+$str = "Testando encontrado palavra teste, em uma string que tem teste"; 
+
+$palavra = strrpos($str, "teste"); // Retorna 57 que é a ultima ocorrencia da palavra teste na string
 
 echo "$palavra <br>";
 
-$palavra2 = strpos($str, "teste");
+$palavra2 = strpos($str, "teste"); // Retorna 28 que é a primeira ocorrencia da palavra teste na string
 
 echo "$palavra2 <br>";
 
@@ -37,6 +39,14 @@ if(strrpos($str, "Java") === false) {
 $p = substr($str, strpos($str, "teste"), 5);
 
 echo "$p <br>";
+
+echo "<hr>";
+
+$frase="Testando quando temos apenas uma palavra do tipo na frase.";
+
+echo strpos($frase,"quando")." <- resultado com strpos (primeira ocorrencia)<br>";
+
+echo strrpos($frase,"quando")." <- resultado com strrpos (ultima ocorrencia)<br>";
 
   
 ?>
